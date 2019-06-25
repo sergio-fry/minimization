@@ -263,7 +263,7 @@ module Minimization
 
       direction  = Array.new(@n)
       x2         = Array.new(@n)
-      0.upto(@n -1) do |i|
+      0.upto(@n - 1) do |i|
         direction[i]  = @x[i] - @x1[i]
         x2[i]         = 2 * @x[i] - @x1[i]
       end
